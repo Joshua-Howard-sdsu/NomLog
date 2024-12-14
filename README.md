@@ -1,41 +1,58 @@
-<<<<<<< HEAD
-# NomLog
-Transform food tracking into a simple snap-and-log experience by leveraging AI
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NomLog - AI Food Tracker
+
+NomLog is an AI-powered food tracking app that helps users analyze and log meals using image recognition technology.
+
+**Note**: This project is still a work in progress, and some features may not be fully functional.
+
+## Features
+- **Image Analysis**: Upload a photo of your meal to analyze its nutritional content using AI.
+- **Meal Logging**: Categorize meals into breakfast, lunch, dinner, or snacks.
+- **Daily Totals**: View a summary of daily calories, protein, carbs, and fats.
+- **Advanced Data Structures**: Implements multiple data structures to support functionality.
+
+## Data Structures Used
+This project demonstrates the use of the following data structures:
+- **Lists**: Used to store individual food items and daily meal logs.
+- **Queues**: Handles image processing tasks in an asynchronous queue.
+- **Hash Table**: Stores nutritional data for quick lookup and retrieval.
+- **Tree**: Represents hierarchical meal categorization and ingredient breakdown.
+- **Graph**: Models relationships between ingredients and similar foods.
+
+## Bonus Features
+- **Searching Algorithms**: Efficiently search for foods within logs or nutritional databases.
+- **Sorting Algorithms**: Sort meals by calorie count, protein, or other nutritional values.
+- **GUI/Visualization**: User-friendly interface for meal logging and nutritional analysis.
 
 ## Getting Started
+### Prerequisites
+- Node.js (v16 or higher)
+- npm
 
-First, run the development server:
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Joshua-Howard-sdsu/NomLog.git
+   cd NomLog
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000] in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Current Progress
+- **Completed**:
+  - Basic GUI for meal logging.
+  - Photo upload functionality.
+  - Core data structures for functionality (lists, queues, hash tables, trees, graphs).
+- **In Progress**:
+  - Optimizing data structures for faster performance.
+  - Further optimization of data structures for performance.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 7ebcf70 (Initial commit from Create Next App)
